@@ -28,8 +28,9 @@ img {
 	border-radius: 5px;
 	padding: 5px;
 	margin: 5px 15px;
-	width: 300px; 
+	min-width: 300px; 
 	background-color: white;
+	width: 15em;
 }
 
 .balra {
@@ -58,10 +59,8 @@ footer{
 	font-size: 0.8em;
 }
 
-a {
-	text-transform: uppercase;
-	text-decoration: none;
-}
+
+
 
 @media screen and (max-width:600px) {
   .balra, .jobbra {
